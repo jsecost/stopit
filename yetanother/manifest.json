@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Stop It",
+  "version": "0.0.0.1",
+  "description": "Regulate your browsing habits",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ]
+
+}
